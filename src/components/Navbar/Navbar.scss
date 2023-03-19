@@ -1,0 +1,30 @@
+.navbar {
+  &__login {
+    i {
+      font-size: 22px;
+      color: black;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar__search {
+    display: none;
+  }
+}
+@media screen and (max-width: 773px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    div {
+      margin-bottom: 20px;
+    }
+  }
+}
+@media screen and (max-width: 415px) {
+  .navbar__login {
+    div {
+      margin: 0 !important;
+    }
+  }
+}

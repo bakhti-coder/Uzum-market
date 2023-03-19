@@ -1,0 +1,17 @@
+@media screen and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    div {
+      margin-bottom: 30px;
+    }
+    .footer__ilova {
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .footer-faq {
+    
+  }
+}
